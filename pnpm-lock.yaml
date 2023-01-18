@@ -8,14 +8,12 @@ importers:
   apps/nuxt-jobs:
     specifiers:
       '@malt/eslint': workspace:*
-      '@malt/nuxt-auth-module': workspace:*
       '@malt/prettier': workspace:*
       '@nuxtjs/tailwindcss': 6.2.0
       eslint: 8.31.0
       nuxt: 3.0.0
       prettier: 2.7.1
     dependencies:
-      '@malt/nuxt-auth-module': link:../../modules/nuxt-auth-module
       '@nuxtjs/tailwindcss': 6.2.0
     devDependencies:
       '@malt/eslint': link:../../packages/eslint

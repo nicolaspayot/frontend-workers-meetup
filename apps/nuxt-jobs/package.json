@@ -9,7 +9,6 @@
     "postinstall": "nuxt prepare"
   },
   "dependencies": {
-    "@malt/nuxt-auth-module": "workspace:*",
     "@nuxtjs/tailwindcss": "6.2.0"
   },
   "devDependencies": {

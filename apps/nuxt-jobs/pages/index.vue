@@ -15,7 +15,6 @@
                 </div>
 
                 <button
-                    v-if="isAdmin"
                     type="button"
                     class="inline-block px-6 py-3 bg-blue-700 text-white text-sm rounded-md shadow-md hover:bg-blue-700 hover:shadow-lg focus:bg-blue-700 focus:shadow-lg focus:outline-none focus:ring-0 active:bg-blue-800 active:shadow-lg transition duration-150 ease-in-out"
                 >
@@ -31,11 +30,4 @@
 
 <script setup lang="ts">
     import {JobItem} from '#components';
-    import {definePageMeta, useAuth} from '#imports';
-
-    const {isAdmin} = useAuth();
-
-    definePageMeta({
-        middleware: 'auth',
-    });
 </script>
