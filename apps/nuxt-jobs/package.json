@@ -1,0 +1,22 @@
+{
+  "name": "@malt/nuxt-jobs",
+  "private": true,
+  "scripts": {
+    "build": "nuxt build",
+    "dev": "nuxt dev",
+    "generate": "nuxt generate",
+    "preview": "nuxt preview",
+    "postinstall": "nuxt prepare"
+  },
+  "dependencies": {
+    "@malt/nuxt-auth-module": "workspace:*",
+    "@nuxtjs/tailwindcss": "6.2.0"
+  },
+  "devDependencies": {
+    "@malt/eslint": "workspace:*",
+    "@malt/prettier": "workspace:*",
+    "eslint": "8.31.0",
+    "prettier": "2.7.1",
+    "nuxt": "3.0.0"
+  }
+}

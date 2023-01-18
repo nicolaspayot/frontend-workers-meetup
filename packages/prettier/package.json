@@ -1,0 +1,8 @@
+{
+  "name": "@malt/prettier",
+  "main": "index.js",
+  "private": true,
+  "peerDependencies": {
+    "prettier": "^2.7.1"
+  }
+}
